@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  background-color: #F7ECDE;
+  margin: 0;
+}
+
+.about {
+  position: absolute;
+  background-color: #cacece;
+  height: 25px;
+  margin-top: 4.8%;
+  margin-left: 52.5%;
+}
+
+.webProjects {
+  position: absolute;
+  height: 30px;
+  margin-top: 4.8%;
+  margin-left: 61.5%;
+}
+
+.videos {
+  position: absolute;
+  height: 25px;
+  margin-top: 4.8%;
+  margin-left: 75.5%;
+}
+
+.contact {
+  position: absolute;
+  height: 25px;
+  margin-top: 4.8%;
+  margin-left: 84.5%;
+}
+
+.homebutton {
+  position: absolute;
+  margin-top: 4.8%;
+  margin-left: 10%;
+  height: 40px;
+}
+
+.aboutInjoo {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 11%;
+}
+
+.title {
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 57%;
+  padding: 0;
+  color: #545940;
+  font-family: "Raleway";
+  font-size: 40px;
+  font-style: italic;
+  text-align: left;
+}
+
+.content {
+  position: absolute;
+  color: #545940;
+  font-family: "Raleway";
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 28%;
+  width: 33%;
+  margin-left: 57%;
+}

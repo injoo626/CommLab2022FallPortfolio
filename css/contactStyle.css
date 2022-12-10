@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  background-color: #F7ECDE;
+  margin: 0;
+}
+
+.homebutton {
+  position: fixed;
+  margin-top: 4.8%;
+  margin-left: 10%;
+  height: 40px;
+}
+.about {
+  position: fixed;
+  height: 25px;
+  margin-top: 4.8%;
+  margin-left: 52.5%;
+}
+.webProjects {
+  position: fixed;
+  height: 30px;
+  margin-top: 4.8%;
+  margin-left: 61.5%;
+}
+.videos {
+  position: fixed;
+  height: 25px;
+  margin-top: 4.8%;
+  margin-left: 75.5%;
+}
+.contact {
+  position: fixed;
+  background-color: #cacece;
+  height: 25px;
+  margin-top: 4.8%;
+  margin-left: 84.5%;
+}
+
+.title{
+  position: absolute;
+  color: #545940;
+  font-family: "Raleway";
+  font-size: 50px;
+  font-style: italic;
+  text-align: left;
+  width: fit-content;
+  margin-top: 19%;
+  margin-left: 28%;
+}
+.content{
+  position: absolute;
+  color: #545940;
+  font-family: "Raleway";
+  font-weight: 100;
+  font-size: 30px;
+  text-align: left;
+  width: 53%;
+}
+.c1{
+  margin-top: 26%; margin-left: 28%;
+}
+.c2{
+  margin-top: 30%; margin-left: 28%;
+}
+.c3{
+  margin-top: 34%; margin-left: 28%;
+}
+.contactImg{
+  position: absolute;
+  height: 400px;
+  margin-top: 15%;
+  margin-left: 62%;
+}
