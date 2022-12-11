@@ -1,73 +1,79 @@
-* { 
-    box-sizing: border-box; 
-  }
-
-  html {
-    margin: 0;
-    background-size: cover; 
-    background: url("../images/bg1.jpeg") no-repeat center center fixed;
-    transition: 3s;
-  }
-  .about{
-    position:absolute;
-    height: 25px;
-    margin-top: -37.1%;
-    margin-left: 52%;
-  }
-  
-  .webProjects{
-    position:absolute;
-    height: 30px;
-    margin-top: -37%;
-    margin-left: 61%;
-  }
-  
-  .videos{
-    position:absolute;
-    height: 25px;
-    margin-top: -37%;
-    margin-left: 75%;
-  }
-  
-  .contact{
-    position:absolute;
-    height: 25px;
-    margin-top: -37%;
-    margin-left: 84%;
-  }
-  .title{
-    position: static;
-    margin:0;
-    margin-top: 18%;
-    color: #f7ecde;
-    font-family: "DM Serif Display", sans-serif;
-    font-size: 120px;
-    text-align: center;
-  }
-
-  .title2{
-    position: relative;
-    margin-top: 3%;
-    padding: 0;
-    color: #f7ecde;
-    font-family: "Raleway";
-    font-size: 35px;
-    font-style: italic;
-    text-align: center;
-  }
-  .content{
-    color: #f7ecde;
-    font-family: "Raleway";
-    font-weight: 100;
-    font-size: 20px;
-    text-align: center;
-    margin-top:-2%;
-    width: 30%;
-    margin-left: 35%;
-  }
-.line {
-    border-bottom: 1px solid #f7ecde;
-    margin-left: 35%;
-    width: 30%;
+* {
+  box-sizing: border-box;
 }
-  
+
+/* background image change in fade */
+html {
+  margin: 0;
+  background-size: cover;
+  background: url("../images/bg1.jpeg") no-repeat center center fixed;
+  transition: 3s;
+}
+
+/* menu buttons */
+.about {
+  position: absolute;
+  height: 25px;
+  margin-top: -37.1%;
+  margin-left: 52%;
+}
+
+.webProjects {
+  position: absolute;
+  height: 30px;
+  margin-top: -37%;
+  margin-left: 61%;
+}
+
+.videos {
+  position: absolute;
+  height: 25px;
+  margin-top: -37%;
+  margin-left: 75%;
+}
+
+.contact {
+  position: absolute;
+  height: 25px;
+  margin-top: -37%;
+  margin-left: 84%;
+}
+
+/* contents */
+.title {
+  position: static;
+  margin: 0;
+  margin-top: 18%;
+  color: #f7ecde;
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 120px;
+  text-align: center;
+}
+
+.title2 {
+  position: relative;
+  margin-top: 3%;
+  padding: 0;
+  color: #f7ecde;
+  font-family: "Raleway";
+  font-size: 35px;
+  font-style: italic;
+  text-align: center;
+}
+
+.content {
+  color: #f7ecde;
+  font-family: "Raleway";
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -2%;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.line {
+  border-bottom: 1px solid #f7ecde;
+  margin-left: 35%;
+  width: 30%;
+}

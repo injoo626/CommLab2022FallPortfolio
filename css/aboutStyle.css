@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+/* menu and home button */
 .about {
   position: absolute;
   background-color: #cacece;
@@ -40,6 +41,7 @@
   height: 40px;
 }
 
+/* contents */
 .aboutInjoo {
   position: absolute;
   margin-top: 13%;

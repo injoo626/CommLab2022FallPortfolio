@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+/* menu and home button */
 .homebutton {
   position: fixed;
   margin-top: 4.8%;
@@ -36,6 +37,7 @@
   margin-left: 84.5%;
 }
 
+/* contents */
 .title{
   position: absolute;
   color: #545940;
