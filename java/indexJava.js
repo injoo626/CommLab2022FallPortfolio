@@ -1,3 +1,4 @@
+// background image changing in fade
 var bgImageArray = ["bg1.jpeg", "bg2.jpeg", "bg3.jpeg","bg4.jpeg","bg5.jpeg","bg6.jpeg"],
 base = "images/",
 secs = 4;
@@ -20,15 +21,13 @@ function backgroundSequence() {
 backgroundSequence();
 
 
-
+// menu changing color when hovered
 var menuList = ["about", "webProjects", "videos", "contact"];
-
 function menuClr(menuName){
 	var menu = document.getElementById(menuName);
 	menu.addEventListener("mouseover", function() {menu.style.backgroundColor = "#9BA66D";});
 	menu.addEventListener("mouseout", function() {menu.style.backgroundColor = "transparent";});
 }
-
 window.onload=function(){
 	const pageSound = document.getElementById("pageTurn");
     for (i = 0; i < menuList.length; i++) {

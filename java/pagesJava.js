@@ -1,5 +1,5 @@
 
-
+// menu changing color when hovered
 function menuClr(menuName){
 	var menu = document.getElementById(menuName);
 	menu.addEventListener("mouseover", function() {menu.style.backgroundColor = "#C1CF86";});
@@ -17,4 +17,5 @@ window.onload=function(){
 
 };
 
+// scroll effect
 AOS.init()
